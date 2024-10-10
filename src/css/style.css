@@ -100,13 +100,15 @@ body {
     transition: 0.3s;
 }
 
-.footer .redes-sociais .icone-redes li i {
+.footer .redes-sociais .icone-redes li a i {
     color: #fff;
     font-weight: 500;
     font-size: 2.4rem;
+    transition: 0.3s;
 }
 
-.footer .social i:hover {
+.footer .redes-sociais .icone-redes li:hover,
+.footer .redes-sociais .icone-redes li:hover i {
     color: var(--soft-magenta);
     border-color: var(--soft-magenta);
 }
